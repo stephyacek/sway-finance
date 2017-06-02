@@ -20,3 +20,26 @@ body {
   margin-bottom: 9px;
   margin-left: 17px;
 }
+
+.navwords {
+  position: relative;
+  display: inline-block;
+  vertical-align: top;
+  text-decoration: none;
+  padding: 20px;
+  text-align: left;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+a:hover {
+  text-decoration: none;
+  color: #a0abbf;
+}
+
+a {
+  color: #a0abbf;
+  font-family: Roboto, sans-serif;
+  text-align: center;
+  padding: 20px;
+}
