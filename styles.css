@@ -2,15 +2,10 @@ body {
   background-image: url(https://www.swayfinance.com/images/bigbackground.png);
 }
 
-.navbar {
-  margin: 0 auto;
-  padding-top: 30px;
-  position: relative;
-}
-
 .topcontainer {
   margin-left: 153px;
   margin-right: 153px;
+  padding-top: 30px;
   max-width: 940px;
 }
 
@@ -35,6 +30,32 @@ a:hover {
 a {
   color: #a0abbf;
   font-family: Roboto, sans-serif;
+  font-weight: 100;
   text-align: center;
   padding: 20px;
+}
+
+.slogan {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 940px;
+  padding: 0;
+}
+
+.topslogan {
+  color: #fff;
+  font-family: Roboto, sans-serif;
+  text-align: center;
+  font-weight: 300;
+  margin-top: 18px;
+  padding-top: 128px;
+  letter-spacing: 2px;
+}
+
+.subtext {
+  color: #fff;
+  font-weight: 200;
+  font-size: 16px;
+  letter-spacing: 1px;
+  text-align: center;
 }
